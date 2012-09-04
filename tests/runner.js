@@ -12,7 +12,7 @@ require(['require',
 function(require, _mocha, _chai) {
   mocha.setup('bdd');
   
-  require(['test.class'],
+  require(['suite'],
   function() {
     mocha.run();
   });
