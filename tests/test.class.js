@@ -1,4 +1,4 @@
-define(['class/class',
+define(['class',
         'chai'],
 function(clazz, chai) {
   var expect = chai.expect;

@@ -1,6 +1,6 @@
 require.config({
   paths:{
-    'class': '../',
+    'class': '../class',
     'mocha': 'vendor/mocha/mocha',
     'chai': 'vendor/chai/chai'
   }
