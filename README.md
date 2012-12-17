@@ -15,7 +15,7 @@ dependencies from GitHub.
 
 To run tests in a browser, open _runner.html_:
 
-    $ open runner.html
+    $ make test-browser
 
 ##### PhantomJS
 
