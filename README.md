@@ -1,3 +1,14 @@
+# Anchor/Class
+
+The class module provides object-oriented programming techniques, including
+inheritance and mixins, to the Anchor platform.
+
+## Installation
+
+### Using volo
+
+    $ volo add anchorjs/class
+
 ## Tests
 
 Tests for Anchor/Class are executed using [Mocha](http://visionmedia.github.com/mocha/)
