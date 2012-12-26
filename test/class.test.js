@@ -1,5 +1,5 @@
 define(['class'],
-function(clazz, chai) {
+function(clazz) {
 
   describe("class", function() {
     
