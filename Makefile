@@ -17,16 +17,16 @@ WWW_TESTS = test/www/index.html
 
 test: test-phantomjs
 
-test-chrome:
+test-chrome: test/www/js/lib
 	$(CHROME) $(WWW_TESTS)
 
-test-firefox:
+test-firefox: test/www/js/lib
 	$(FIREFOX) $(WWW_TESTS)
 
-test-safari:
+test-safari: test/www/js/lib
 	$(SAFARI) $(WWW_TESTS)
 
-test-phantomjs:
+test-phantomjs: test/www/js/lib
 	$(MOCHA_PHANTOMJS) $(WWW_TESTS)
 
 # Prior to running tests on Sauce Labs, ensure that a local server is listening
@@ -38,6 +38,9 @@ test-phantomjs:
 test-cloud: test-saucelabs
 test-saucelabs:
 	clear && node test/cloud/terminal.js
+
+test/www/js/lib:
+	cd test/www && volo add 
 
 
 # ==============================================================================
