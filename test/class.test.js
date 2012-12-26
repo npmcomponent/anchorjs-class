@@ -1,24 +1,22 @@
-define(['class',
-        'chai'],
+define(['class'],
 function(clazz, chai) {
-  var expect = chai.expect;
 
   describe("class", function() {
     
-    describe(".inherits", function() {
+    describe(".inherits()", function() {
       function Animal() {};
       function Lion() {};
       clazz.inherits(Lion, Animal);
       
-      it('shoud restore constructor', function() {
+      it('should restore constructor', function() {
         expect(Lion.prototype.constructor).to.be.equal(Lion);
       });
       
-      it('shoud set super_ property', function() {
+      it('should set super_ property', function() {
         expect(Lion.super_).to.be.equal(Animal);
       });
       
-      it('shoud create instances of superclass', function() {
+      it('should create instances of superclass', function() {
         var lion = new Lion();
         expect(lion).to.be.an.instanceOf(Lion);
         expect(lion).to.be.an.instanceOf(Animal);
@@ -71,7 +69,7 @@ function(clazz, chai) {
       
     });
     
-    describe(".augment", function() {
+    describe(".augment()", function() {
       
       it('should mix in single function', function() {
         function Alien() {};
