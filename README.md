@@ -5,7 +5,7 @@ inheritance and mixins, to the Anchor platform.
 
 ## Installation
 
-### Using volo
+#### Using volo
 
     $ volo add anchorjs/class
 
