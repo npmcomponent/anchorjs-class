@@ -1,0 +1,11 @@
+{
+  "name": "class",
+  "version": "0.0.0",
+  "description": "Class module for Anchor.js.",
+  "repo": "anchorjs/class",
+  "main": "class.js",
+  "scripts": [
+    "class.js"
+  ],
+  "license": "MIT"
+}
