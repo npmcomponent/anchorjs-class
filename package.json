@@ -1,6 +1,6 @@
 {
   "name": "class",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Class module for Anchor.js.",
   "repository": {
     "type": "git",
