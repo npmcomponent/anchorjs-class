@@ -21,6 +21,9 @@
     }
   ],
   "main": "class",
+  "browserify": {
+    "transform": "deamdify"
+  },
   "devDependencies": {
     "mocha-phantomjs": "1.x.x",
     "mocha-cloud": "0.0.1",
