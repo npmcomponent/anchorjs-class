@@ -41,6 +41,8 @@ clazz.augment(Cat, HousePet);
 
 ## Tests
 
+[![browser support](https://ci.testling.com/anchorjs/class.png)](http://ci.testling.com/anchorjs/class)
+
 ##### Browser
 
 To run tests in a browser, execute the Make target for the desired browser:
