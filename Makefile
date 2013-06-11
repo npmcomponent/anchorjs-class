@@ -42,7 +42,7 @@ test-phantomjs: node_modules test/www/js/lib
 #     $ java -jar Sauce-Connect.jar $SAUCE_LABS_USERNAME $SAUCE_LABS_ACCESS_KEY
 #     $ node test/auto/server.js
 #
-test-saucelabs: node_modules test-browser
+test-saucelabs: node_modules test/www/js/lib
 	clear && node test/auto/terminal-saucelabs.js
 
 test/www/js/lib:
