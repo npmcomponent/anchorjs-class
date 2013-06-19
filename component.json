@@ -1,7 +1,7 @@
 {
   "name": "class",
   "version": "0.0.1",
-  "description": "Class module for Anchor.js.",
+  "description": "Provides object-oriented programming techniques.",
   "repo": "anchorjs/class",
   "main": "class.js",
   "scripts": [
