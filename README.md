@@ -5,11 +5,13 @@ inheritance and mixins, to the Anchor platform.
 
 ## Install
 
+##### component
+
+    $ component install anchorjs/class
+
 ##### volo
 
     $ volo add anchorjs/class
-
-For more information on using volo to manage JavaScript modules, visit [http://volojs.org/](http://volojs.org/).
 
 ## Usage
 
@@ -39,22 +41,27 @@ var HousePet = {
 clazz.augment(Cat, HousePet);
 ```
 
-## Tests
+## Compatibility
 
 [![browser support](https://ci.testling.com/anchorjs/class.png)](http://ci.testling.com/anchorjs/class)
 
-##### Browser
+##### component
+
+This module uses the [AMD](https://github.com/amdjs/amdjs-api) format.  To
+include in component builds, use [component-amd](https://github.com/jaredhanson/component-amd):
+
+    component build -u component-amd
+
+## Tests
 
 To run tests in a browser, execute the Make target for the desired browser:
 
     $ make test-chrome
     $ make test-firefox
     $ make test-safari
-
-##### PhantomJS
-
-To run headless tests from a terminal using [PhantomJS](http://phantomjs.org/):
-
+    
+Headless tests can be executed directly from a terminal:
+    
     $ make test-phantomjs
 
 ## Credits
