@@ -1,56 +1,8 @@
 {
-  "name": "class",
-  "version": "0.0.1",
+  "name": "anchorjs-class",
   "description": "Provides object-oriented programming techniques.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/anchorjs/class.git"
-  },
-  "bugs": {
-    "url": "http://github.com/anchorjs/class/issues"
-  },
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "class",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "express": "3.x.x",
-    "term-canvas": "0.0.x",
-    "mocha-phantomjs": "2.x.x",
-    "mocha-cloud": "0.1.x",
-    "mocha-cloud-grid-view": "0.0.x",
-    "component-amd": "0.1.x",
-    "deamdify": "0.1.x"
-  },
-  "browserify": {
-    "transform": "deamdify"
-  },
-  "volo": {
-    "dependencies": {
-    }
-  },
-  "testling": {
-    "browsers": {
-      "firefox": [ "17.0", "18.0", "19.0" ],
-      "chrome": [ "23.0", "24.0", "25.0" ],
-      "ie": [ "6.0", "7.0", "8.0", "9.0", "10.0" ],
-      "safari": [ "4.0", "5.0.5", "5.1", "6.0" ],
-      "opera": [ "10.0", "10.5", "11.0", "11.5", "11.6", "12.0" ]
-    },
-    "harness" : "mocha",
-    "files": [
-      "test/bootstrap/testling.js",
-      "test/*.test.js"
-    ]
-  }
+  "version": "0.0.1",
+  "main": "class.js",
+  "dependencies": {},
+  "license": "MIT"
 }
